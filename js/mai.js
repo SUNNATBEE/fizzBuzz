@@ -36,7 +36,6 @@ elFrom.addEventListener("submit" , function(evt){
         elAlert.classList.add("d-none");
         elFizzText.style.backgroundColor = "yellow";
         elFrom.reset();
-        elFizzText.textContent = "";
     }else if (elInputValue % 5 == 0){
         Buzz.push(elInputValue);
         elBuzzText.textContent = Buzz;
@@ -55,9 +54,4 @@ elFrom.addEventListener("submit" , function(evt){
         elFrom.reset();
         
     }
-})
-elBtnReset.addEventListener("click", function(){
-    elBuzzText.textContent = ""
-    elFizzBuzzText.textContent = ""
-    elFizzText.textContent = ""
 })
