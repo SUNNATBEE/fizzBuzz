@@ -1,0 +1,10 @@
+.text__desc{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.box{
+    max-width: 400px;
+    width: 100%;
+    
+}
